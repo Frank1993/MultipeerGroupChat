@@ -1,0 +1,451 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		26C3B30152A5C7F72CC077BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A682B67C0B9F060D4A11120B /* Foundation.framework */; };
+		3FC069861C022F3FFB79546C /* JVFloatingDrawerSpringAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = BF299FE9D47D25DE44D5B7E3 /* JVFloatingDrawerSpringAnimator.m */; };
+		4A9CFB69399A8E4C4ADAD5D3 /* JVFloatingDrawerViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CEFBA093A01F70D08448A62 /* JVFloatingDrawerViewController.h */; };
+		5252C67165EDC2263DDAF9E6 /* JVFloatingDrawerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 173F27C7A976F8AD2B9E893B /* JVFloatingDrawerView.m */; };
+		73C5A928345518CEB4D9E96F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A682B67C0B9F060D4A11120B /* Foundation.framework */; };
+		8C9C5160629C22BFD9B01B02 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 104E4FF6C472C78AA50E26C5 /* Pods-dummy.m */; };
+		969A038247524BCA8D342904 /* JVFloatingDrawerAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1AD2E86BA1E09579767E8C91 /* JVFloatingDrawerAnimation.h */; };
+		9CCF6A7D527CE839E0F8B705 /* Pods-JVFloatingDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E7329F8E4ED456563C909022 /* Pods-JVFloatingDrawer-dummy.m */; };
+		CC92957874B1C4AD6939BBD5 /* JVFloatingDrawerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 034E1DFAC7D80660096D3840 /* JVFloatingDrawerView.h */; };
+		E09E894963C506153F88BF72 /* JVFloatingDrawerSpringAnimator.h in Headers */ = {isa = PBXBuildFile; fileRef = E295F30582AC2C04A02D1992 /* JVFloatingDrawerSpringAnimator.h */; };
+		EC193FE5AED6B348B14984A6 /* JVFloatingDrawerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F44BC8102C0D83550932F3F /* JVFloatingDrawerViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE4FCC5B34C8ED07A83DF061 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F93AC776BEAB44C12A948A40 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC19D8E88894B5BC32574913;
+			remoteInfo = "Pods-JVFloatingDrawer";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		034E1DFAC7D80660096D3840 /* JVFloatingDrawerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatingDrawerView.h; path = Pod/Classes/JVFloatingDrawerView.h; sourceTree = "<group>"; };
+		0FA7D4DC3A10854D70EC0699 /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		104E4FF6C472C78AA50E26C5 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		173F27C7A976F8AD2B9E893B /* JVFloatingDrawerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatingDrawerView.m; path = Pod/Classes/JVFloatingDrawerView.m; sourceTree = "<group>"; };
+		1AD2E86BA1E09579767E8C91 /* JVFloatingDrawerAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatingDrawerAnimation.h; path = Pod/Classes/JVFloatingDrawerAnimation.h; sourceTree = "<group>"; };
+		1E3C2582A5A5348FAED05572 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		256723382F760F0483DAFF87 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		30D9D8CC8449EF6B620E8627 /* Pods-JVFloatingDrawer-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatingDrawer-Private.xcconfig"; sourceTree = "<group>"; };
+		3D549B45FB3806B9F2FE851E /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		78806CFD437F132A48C071E6 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F44BC8102C0D83550932F3F /* JVFloatingDrawerViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatingDrawerViewController.m; path = Pod/Classes/JVFloatingDrawerViewController.m; sourceTree = "<group>"; };
+		99896DFBA8193C8A6438CA00 /* Pods-JVFloatingDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JVFloatingDrawer.xcconfig"; sourceTree = "<group>"; };
+		9CEFBA093A01F70D08448A62 /* JVFloatingDrawerViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatingDrawerViewController.h; path = Pod/Classes/JVFloatingDrawerViewController.h; sourceTree = "<group>"; };
+		A682B67C0B9F060D4A11120B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BCB7B5614F5654D3B2507BA5 /* libPods-JVFloatingDrawer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JVFloatingDrawer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCCD428A0793CD5947A95732 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		BE4AA9AB6008800C3F4C5527 /* Pods-JVFloatingDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-JVFloatingDrawer-prefix.pch"; sourceTree = "<group>"; };
+		BF299FE9D47D25DE44D5B7E3 /* JVFloatingDrawerSpringAnimator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JVFloatingDrawerSpringAnimator.m; path = Pod/Classes/JVFloatingDrawerSpringAnimator.m; sourceTree = "<group>"; };
+		D88C0654E533CEA59BF09778 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E295F30582AC2C04A02D1992 /* JVFloatingDrawerSpringAnimator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JVFloatingDrawerSpringAnimator.h; path = Pod/Classes/JVFloatingDrawerSpringAnimator.h; sourceTree = "<group>"; };
+		E7329F8E4ED456563C909022 /* Pods-JVFloatingDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JVFloatingDrawer-dummy.m"; sourceTree = "<group>"; };
+		F96D18F00B62F0D18E331549 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7166EBA9EC9987762068D835 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				73C5A928345518CEB4D9E96F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6568D0F5E7A02B87C9B851C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				26C3B30152A5C7F72CC077BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11E98C000CB8342E6FB5A0CD /* JVFloatingDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				1AD2E86BA1E09579767E8C91 /* JVFloatingDrawerAnimation.h */,
+				E295F30582AC2C04A02D1992 /* JVFloatingDrawerSpringAnimator.h */,
+				BF299FE9D47D25DE44D5B7E3 /* JVFloatingDrawerSpringAnimator.m */,
+				034E1DFAC7D80660096D3840 /* JVFloatingDrawerView.h */,
+				173F27C7A976F8AD2B9E893B /* JVFloatingDrawerView.m */,
+				9CEFBA093A01F70D08448A62 /* JVFloatingDrawerViewController.h */,
+				7F44BC8102C0D83550932F3F /* JVFloatingDrawerViewController.m */,
+				F0D55F38143B3C57944AD154 /* Support Files */,
+			);
+			path = JVFloatingDrawer;
+			sourceTree = "<group>";
+		};
+		201AE7E274DFED9A96AC8130 = {
+			isa = PBXGroup;
+			children = (
+				D88C0654E533CEA59BF09778 /* Podfile */,
+				5E680A7AA66FA6021D0C1627 /* Frameworks */,
+				F15E0472A65250818A94BF99 /* Pods */,
+				2422EB880EDD49232C844B88 /* Products */,
+				D8A8C46DBBC08A7DB0433082 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		2422EB880EDD49232C844B88 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				78806CFD437F132A48C071E6 /* libPods.a */,
+				BCB7B5614F5654D3B2507BA5 /* libPods-JVFloatingDrawer.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3156FFD45741D3A520603FCB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A682B67C0B9F060D4A11120B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5E680A7AA66FA6021D0C1627 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3156FFD45741D3A520603FCB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66837A9E5E44726926D759DC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FA7D4DC3A10854D70EC0699 /* Pods-acknowledgements.markdown */,
+				256723382F760F0483DAFF87 /* Pods-acknowledgements.plist */,
+				104E4FF6C472C78AA50E26C5 /* Pods-dummy.m */,
+				F96D18F00B62F0D18E331549 /* Pods-environment.h */,
+				1E3C2582A5A5348FAED05572 /* Pods-resources.sh */,
+				3D549B45FB3806B9F2FE851E /* Pods.debug.xcconfig */,
+				BCCD428A0793CD5947A95732 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		D8A8C46DBBC08A7DB0433082 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				66837A9E5E44726926D759DC /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F0D55F38143B3C57944AD154 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				99896DFBA8193C8A6438CA00 /* Pods-JVFloatingDrawer.xcconfig */,
+				30D9D8CC8449EF6B620E8627 /* Pods-JVFloatingDrawer-Private.xcconfig */,
+				E7329F8E4ED456563C909022 /* Pods-JVFloatingDrawer-dummy.m */,
+				BE4AA9AB6008800C3F4C5527 /* Pods-JVFloatingDrawer-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-JVFloatingDrawer";
+			sourceTree = "<group>";
+		};
+		F15E0472A65250818A94BF99 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				11E98C000CB8342E6FB5A0CD /* JVFloatingDrawer */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D12784FEC99C6146F726BC4E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				969A038247524BCA8D342904 /* JVFloatingDrawerAnimation.h in Headers */,
+				E09E894963C506153F88BF72 /* JVFloatingDrawerSpringAnimator.h in Headers */,
+				CC92957874B1C4AD6939BBD5 /* JVFloatingDrawerView.h in Headers */,
+				4A9CFB69399A8E4C4ADAD5D3 /* JVFloatingDrawerViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BC19D8E88894B5BC32574913 /* Pods-JVFloatingDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85050C7A12CA008E87A0F931 /* Build configuration list for PBXNativeTarget "Pods-JVFloatingDrawer" */;
+			buildPhases = (
+				6ACBE640B230FAFC54774380 /* Sources */,
+				7166EBA9EC9987762068D835 /* Frameworks */,
+				D12784FEC99C6146F726BC4E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-JVFloatingDrawer";
+			productName = "Pods-JVFloatingDrawer";
+			productReference = BCB7B5614F5654D3B2507BA5 /* libPods-JVFloatingDrawer.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		C58703D40CEC091CCE1AE24A /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F2A8602E5722C91BC16384D5 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				460EEA883C468D0C0F512C89 /* Sources */,
+				F6568D0F5E7A02B87C9B851C /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9C177F39D0C6806523AAFB4C /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 78806CFD437F132A48C071E6 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F93AC776BEAB44C12A948A40 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 036048E7A5AC01E7A002770B /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 201AE7E274DFED9A96AC8130;
+			productRefGroup = 2422EB880EDD49232C844B88 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C58703D40CEC091CCE1AE24A /* Pods */,
+				BC19D8E88894B5BC32574913 /* Pods-JVFloatingDrawer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		460EEA883C468D0C0F512C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9C5160629C22BFD9B01B02 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6ACBE640B230FAFC54774380 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FC069861C022F3FFB79546C /* JVFloatingDrawerSpringAnimator.m in Sources */,
+				5252C67165EDC2263DDAF9E6 /* JVFloatingDrawerView.m in Sources */,
+				EC193FE5AED6B348B14984A6 /* JVFloatingDrawerViewController.m in Sources */,
+				9CCF6A7D527CE839E0F8B705 /* Pods-JVFloatingDrawer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9C177F39D0C6806523AAFB4C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-JVFloatingDrawer";
+			target = BC19D8E88894B5BC32574913 /* Pods-JVFloatingDrawer */;
+			targetProxy = EE4FCC5B34C8ED07A83DF061 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		112E859CC88CD793415819FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		227D3C810328AEF3933035E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3D549B45FB3806B9F2FE851E /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22A59AA90E2BD8FAC53947A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D9D8CC8449EF6B620E8627 /* Pods-JVFloatingDrawer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVFloatingDrawer/Pods-JVFloatingDrawer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		57EB2364D627FD42DCAEAE53 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCCD428A0793CD5947A95732 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5EAD7CC3284D2D6CF057AED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30D9D8CC8449EF6B620E8627 /* Pods-JVFloatingDrawer-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-JVFloatingDrawer/Pods-JVFloatingDrawer-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		C1ADAEBB662E3371DAE84DE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		036048E7A5AC01E7A002770B /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C1ADAEBB662E3371DAE84DE5 /* Debug */,
+				112E859CC88CD793415819FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85050C7A12CA008E87A0F931 /* Build configuration list for PBXNativeTarget "Pods-JVFloatingDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A59AA90E2BD8FAC53947A0 /* Debug */,
+				5EAD7CC3284D2D6CF057AED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F2A8602E5722C91BC16384D5 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227D3C810328AEF3933035E1 /* Debug */,
+				57EB2364D627FD42DCAEAE53 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F93AC776BEAB44C12A948A40 /* Project object */;
+}
