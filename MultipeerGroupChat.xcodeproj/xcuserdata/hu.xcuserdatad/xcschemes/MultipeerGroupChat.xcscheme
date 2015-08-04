@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-               BuildableName = "MultipeerGroupChat.app"
+               BuildableName = "&#x73ed;&#x73ed;&#x4e50;.app"
                BlueprintName = "MultipeerGroupChat"
                ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
             </BuildableReference>
@@ -33,7 +33,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "&#x73ed;&#x73ed;&#x4e50;.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>
@@ -44,7 +44,7 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       launchStyle = "0"
       useCustomWorkingDirectory = "NO"
-      buildConfiguration = "Debug"
+      buildConfiguration = "Release"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
       allowLocationSimulation = "YES">
@@ -53,7 +53,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "&#x73ed;&#x73ed;&#x4e50;.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>
@@ -72,7 +72,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "7AEDCFC0174695EA00947F1C"
-            BuildableName = "MultipeerGroupChat.app"
+            BuildableName = "&#x73ed;&#x73ed;&#x4e50;.app"
             BlueprintName = "MultipeerGroupChat"
             ReferencedContainer = "container:MultipeerGroupChat.xcodeproj">
          </BuildableReference>

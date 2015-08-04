@@ -14,10 +14,6 @@
 		7A39F1DE17839810005F51B8 /* ImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39F1DD17839810005F51B8 /* ImageView.m */; };
 		7A39F1E1178494E3005F51B8 /* ProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A39F1E0178494E3005F51B8 /* ProgressView.m */; };
 		7A3DD78C17A716BD00A89D93 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78617A716BD00A89D93 /* Icon-Small-50.png */; };
-		7A3DD78D17A716BD00A89D93 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78717A716BD00A89D93 /* Icon-Small.png */; };
-		7A3DD78E17A716BD00A89D93 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78817A716BD00A89D93 /* Icon-Small@2x.png */; };
-		7A3DD78F17A716BD00A89D93 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78917A716BD00A89D93 /* Icon.png */; };
-		7A3DD79017A716BD00A89D93 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78A17A716BD00A89D93 /* Icon@2x.png */; };
 		7A3DD79117A716BD00A89D93 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD78B17A716BD00A89D93 /* Icon-72.png */; };
 		7A3DD79317A716DD00A89D93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A3DD79217A716DD00A89D93 /* Images.xcassets */; };
 		7A7695571746ED7E008A2DBF /* Transcript.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7695561746ED7E008A2DBF /* Transcript.m */; };
@@ -41,6 +37,10 @@
 		7AEDCFF51746993000947F1C /* SessionContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDCFF41746993000947F1C /* SessionContainer.m */; };
 		7AEDCFFA1746BD0B00947F1C /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AEDCFF91746BD0B00947F1C /* SettingsViewController.m */; };
 		7AEDCFFF1746D5FB00947F1C /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AEDCFFE1746D5FB00947F1C /* MultipeerConnectivity.framework */; };
+		859C31731B68D70100197EC6 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = 859C31711B68D70100197EC6 /* Icon-Small.png */; };
+		859C31741B68D70100197EC6 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 859C31721B68D70100197EC6 /* Icon-Small@2x.png */; };
+		859C31781B68D8D700197EC6 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 859C31771B68D8D700197EC6 /* Icon.png */; };
+		859C317A1B68D8E800197EC6 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 859C31791B68D8E800197EC6 /* Icon@2x.png */; };
 		85EA80FB1B57B6D90094A6AB /* ZWIntroductionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EA80FA1B57B6D90094A6AB /* ZWIntroductionViewController.m */; };
 		85EBE9631B5606B90029295F /* JVLeftDrawerTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBE9601B5606B90029295F /* JVLeftDrawerTableViewCell.m */; };
 		85EBE9641B5606B90029295F /* JVLeftDrawerTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EBE9621B5606B90029295F /* JVLeftDrawerTableViewController.m */; };
@@ -58,10 +58,6 @@
 		7A39F1DF178494E3005F51B8 /* ProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProgressView.h; sourceTree = "<group>"; };
 		7A39F1E0178494E3005F51B8 /* ProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProgressView.m; sourceTree = "<group>"; };
 		7A3DD78617A716BD00A89D93 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small-50.png"; sourceTree = "<group>"; };
-		7A3DD78717A716BD00A89D93 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
-		7A3DD78817A716BD00A89D93 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
-		7A3DD78917A716BD00A89D93 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
-		7A3DD78A17A716BD00A89D93 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		7A3DD78B17A716BD00A89D93 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-72.png"; sourceTree = "<group>"; };
 		7A3DD79217A716DD00A89D93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = MultipeerGroupChat/Images.xcassets; sourceTree = SOURCE_ROOT; };
 		7A7695551746ED7E008A2DBF /* Transcript.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transcript.h; sourceTree = "<group>"; };
@@ -71,7 +67,7 @@
 		7A9322ED179DB37300A3F7E3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		7AE14A1C1778F3EE009C8532 /* MessageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageView.h; sourceTree = "<group>"; };
 		7AE14A1D1778F3EE009C8532 /* MessageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageView.m; sourceTree = "<group>"; };
-		7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipeerGroupChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AEDCFC1174695EA00947F1C /* 班班乐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "班班乐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7AEDCFC4174695EA00947F1C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		7AEDCFC6174695EA00947F1C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		7AEDCFC8174695EA00947F1C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -95,6 +91,10 @@
 		7AEDCFF81746BD0B00947F1C /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
 		7AEDCFF91746BD0B00947F1C /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 		7AEDCFFE1746D5FB00947F1C /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
+		859C31711B68D70100197EC6 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small.png"; sourceTree = "<group>"; };
+		859C31721B68D70100197EC6 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-Small@2x.png"; sourceTree = "<group>"; };
+		859C31771B68D8D700197EC6 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		859C31791B68D8E800197EC6 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
 		85EA80F91B57B6D90094A6AB /* ZWIntroductionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWIntroductionViewController.h; sourceTree = "<group>"; };
 		85EA80FA1B57B6D90094A6AB /* ZWIntroductionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIntroductionViewController.m; sourceTree = "<group>"; };
 		85EBE95F1B5606B90029295F /* JVLeftDrawerTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JVLeftDrawerTableViewCell.h; sourceTree = "<group>"; };
@@ -141,7 +141,7 @@
 		7AEDCFC2174695EA00947F1C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */,
+				7AEDCFC1174695EA00947F1C /* 班班乐.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -178,10 +178,10 @@
 			isa = PBXGroup;
 			children = (
 				7A3DD78617A716BD00A89D93 /* Icon-Small-50.png */,
-				7A3DD78717A716BD00A89D93 /* Icon-Small.png */,
-				7A3DD78817A716BD00A89D93 /* Icon-Small@2x.png */,
-				7A3DD78917A716BD00A89D93 /* Icon.png */,
-				7A3DD78A17A716BD00A89D93 /* Icon@2x.png */,
+				859C31711B68D70100197EC6 /* Icon-Small.png */,
+				859C31721B68D70100197EC6 /* Icon-Small@2x.png */,
+				859C31771B68D8D700197EC6 /* Icon.png */,
+				859C31791B68D8E800197EC6 /* Icon@2x.png */,
 				7A3DD78B17A716BD00A89D93 /* Icon-72.png */,
 				64839C3B175519FF003E061F /* bubble-left@2x.png */,
 				64839C3D175519FF003E061F /* bubble-right@2x.png */,
@@ -271,7 +271,7 @@
 			);
 			name = MultipeerGroupChat;
 			productName = AdhocGroupChat;
-			productReference = 7AEDCFC1174695EA00947F1C /* MultipeerGroupChat.app */;
+			productReference = 7AEDCFC1174695EA00947F1C /* 班班乐.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -308,20 +308,20 @@
 			files = (
 				7AEDCFE1174695EB00947F1C /* Default-Landscape~ipad.png in Resources */,
 				7AEDCFDF174695EA00947F1C /* Default-Portrait@2x~ipad.png in Resources */,
+				859C31741B68D70100197EC6 /* Icon-Small@2x.png in Resources */,
 				7AEDCFD9174695EA00947F1C /* Default@2x.png in Resources */,
-				7A3DD78E17A716BD00A89D93 /* Icon-Small@2x.png in Resources */,
-				7A3DD78F17A716BD00A89D93 /* Icon.png in Resources */,
 				64839C41175519FF003E061F /* bubble-right@2x.png in Resources */,
 				7AEDCFE3174695EB00947F1C /* Default-Landscape@2x~ipad.png in Resources */,
 				7A9322EE179DB37300A3F7E3 /* Default-568h@2x.png in Resources */,
 				7AEDCFDD174695EA00947F1C /* Default-Portrait~ipad.png in Resources */,
 				7AEDCFE6174695EB00947F1C /* MainStoryboard_iPhone.storyboard in Resources */,
-				7A3DD78D17A716BD00A89D93 /* Icon-Small.png in Resources */,
 				7A3DD79117A716BD00A89D93 /* Icon-72.png in Resources */,
+				859C31781B68D8D700197EC6 /* Icon.png in Resources */,
+				859C31731B68D70100197EC6 /* Icon-Small.png in Resources */,
 				7A3DD78C17A716BD00A89D93 /* Icon-Small-50.png in Resources */,
 				64839C3F175519FF003E061F /* bubble-left@2x.png in Resources */,
-				7A3DD79017A716BD00A89D93 /* Icon@2x.png in Resources */,
 				7A3DD79317A716DD00A89D93 /* Images.xcassets in Resources */,
+				859C317A1B68D8E800197EC6 /* Icon@2x.png in Resources */,
 				7AEDCFCF174695EA00947F1C /* InfoPlist.strings in Resources */,
 				6403E6D51748500100BDFEC7 /* PhotoButton@2x.png in Resources */,
 				7AEDCFD7174695EA00947F1C /* Default.png in Resources */,
@@ -480,15 +480,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 51B20B62E48C79659A1AA183 /* Pods.debug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jari Aho (N6UX62EFNQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jari Aho (N6UX62EFNQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdhocGroupChat/MultipeerGroupChat-Prefix.pch";
 				INFOPLIST_FILE = "AdhocGroupChat/MultipeerGroupChat-Info.plist";
-				PRODUCT_NAME = MultipeerGroupChat;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "班班乐";
+				PROVISIONING_PROFILE = "a42fb445-3462-4a65-8425-b5c8493bbee3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
@@ -499,15 +498,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 031B9C3F1E51E7BF0A2EE29A /* Pods.release.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Developer: Jari Aho (N6UX62EFNQ)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Jari Aho (N6UX62EFNQ)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "AdhocGroupChat/MultipeerGroupChat-Prefix.pch";
 				INFOPLIST_FILE = "AdhocGroupChat/MultipeerGroupChat-Info.plist";
-				PRODUCT_NAME = MultipeerGroupChat;
-				PROVISIONING_PROFILE = "";
+				PRODUCT_NAME = "班班乐";
+				PROVISIONING_PROFILE = "a42fb445-3462-4a65-8425-b5c8493bbee3";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;

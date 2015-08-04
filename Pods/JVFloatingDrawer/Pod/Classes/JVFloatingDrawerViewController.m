@@ -199,6 +199,7 @@ NSString *JVFloatingDrawerSideString(JVFloatingDrawerSide side) {
 
 - (void)setBackgroundImage:(UIImage *)backgroundImage {
     self.drawerView.backgroundImageView.image = backgroundImage;
+  //  self.drawerView.backgroundImageView.alpha = 0.8;
 }
 
 - (UIImage *)backgroundImage {

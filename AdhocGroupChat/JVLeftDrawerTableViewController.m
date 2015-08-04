@@ -65,12 +65,12 @@ static NSString * const kJVDrawerCellReuseIdentifier = @"JVDrawerCellReuseIdenti
     if ([indexPath section]==0) {
         NSString * serviceType = [[NSUserDefaults standardUserDefaults] objectForKey:@"serviceTypeKey"];
         cell.titleText = serviceType;
-        cell.iconImage = [UIImage imageNamed:@"488-github"];
+        cell.iconImage = [UIImage imageNamed:@"usergroup"];
     }else
     {
         NSString * peerId = [self.peerIdArray objectAtIndex:[indexPath row]];
         cell.titleText = peerId;
-        cell.iconImage = [UIImage imageNamed:@"488-github"];
+        cell.iconImage = [UIImage imageNamed:@"user"];
     }
     
     return cell;
@@ -98,5 +98,13 @@ static NSString * const kJVDrawerCellReuseIdentifier = @"JVDrawerCellReuseIdenti
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+-(NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    if (section==0) {
+        return @"群名称：";
+    }else
+    {
+        return @"群成员：";
+    }
+}
 @end

@@ -80,20 +80,23 @@ static NSString * const kJVRightDrawerStoryboardID = @"JVRightDrawerViewControll
     [self configureDrawerViewController];
     
     [self.window makeKeyAndVisible];
-    
-    NSArray *coverImageNames = @[@"img_index_01txt", @"img_index_02txt", @"img_index_03txt"];
-    NSArray *backgroundImageNames = @[@"img_index_01bg", @"img_index_02bg", @"img_index_03bg"];
-    self.introductionView = [[ZWIntroductionViewController alloc] initWithCoverImageNames:coverImageNames backgroundImageNames:backgroundImageNames];
-    
-    [self.window addSubview:self.introductionView.view];
-    
-    __weak AppDelegate *weakSelf = self;
-    self.introductionView.didSelectedEnter = ^() {
-        [weakSelf.introductionView.view removeFromSuperview];
-        weakSelf.introductionView = nil;
+    if(![[NSUserDefaults standardUserDefaults] boolForKey:@"hasLaunched"])
+    {
+        NSArray *coverImageNames = @[@"img_index_01txt", @"img_index_02txt", @"img_index_03txt"];
+        NSArray *backgroundImageNames = @[@"img_index_01bg", @"img_index_02bg", @"img_index_03bg"];
+        self.introductionView = [[ZWIntroductionViewController alloc] initWithCoverImageNames:coverImageNames backgroundImageNames:backgroundImageNames];
         
+        [self.window addSubview:self.introductionView.view];
         
-    };
+        __weak AppDelegate *weakSelf = self;
+        self.introductionView.didSelectedEnter = ^() {
+            [weakSelf.introductionView.view removeFromSuperview];
+            weakSelf.introductionView = nil;
+            
+            
+        };
+    }
+    [[NSUserDefaults standardUserDefaults] setBool:YES forKey:@"hasLaunched"];
     
     
     return YES;
@@ -188,7 +191,7 @@ static NSString * const kJVRightDrawerStoryboardID = @"JVRightDrawerViewControll
     
     self.drawerViewController.animator = self.drawerAnimator;
     
-    self.drawerViewController.backgroundImage = [UIImage imageNamed:@"sky"];
+    self.drawerViewController.backgroundImage = [UIImage imageNamed:@"blue"];
 }
 
 #pragma mark - Global Access Helper

@@ -131,7 +131,7 @@ NSString * const kNSDefaultServiceType = @"serviceTypeKey";
     self.rightSwipeGestureRecognizer = [[UISwipeGestureRecognizer alloc] initWithTarget:self action:@selector(rightSwipe)];
     self.rightSwipeGestureRecognizer.direction = UISwipeGestureRecognizerDirectionLeft;
     [self.view addGestureRecognizer:self.rightSwipeGestureRecognizer];
-    
+
     
 }
 -(void)dealloc{

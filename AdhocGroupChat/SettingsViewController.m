@@ -66,10 +66,17 @@
 
 - (void)viewDidLoad
 {
-    self.displayName = [NSString stringWithString:[[NSUserDefaults standardUserDefaults] objectForKey:@"displayNameKey"]];
-    self.serviceType = [NSString stringWithString:[[NSUserDefaults standardUserDefaults] objectForKey:@"serviceTypeKey"]];
-    self.displayNameTextField.text = self.displayName;
-    self.serviceTypeTextField.text = self.serviceType;
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"displayNameKey"]) {
+        self.displayName = [NSString stringWithString:[[NSUserDefaults standardUserDefaults] objectForKey:@"displayNameKey"]];
+        self.displayNameTextField.text = self.displayName;
+    }
+    if ([[NSUserDefaults standardUserDefaults] objectForKey:@"serviceTypeKey"]) {
+        self.serviceType = [NSString stringWithString:[[NSUserDefaults standardUserDefaults] objectForKey:@"serviceTypeKey"]];
+        
+        self.serviceTypeTextField.text = self.serviceType;
+    }
+    
+    
     self.view.backgroundColor = [UIColor clearColor];
 }
 
@@ -115,18 +122,6 @@
 
 #pragma mark - IBAction methods
 
-- (IBAction)doneTapped:(id)sender
-{
-    if ([self isDisplayNameAndServiceTypeValid]) {
-        // Fields are set.  send the values back to the delegate
-       // [self.delegate controller:self didCreateChatRoomWithDisplayName:self.displayNameTextField.text serviceType:self.serviceTypeTextField.text];
-    }
-    else {
-        // These are mandatory fields.  Alert the user
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"You must set a valid room name and your display name" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
-        [alert show];
-    }
-}
 
 #pragma mark - UITextFieldDelegate methods
 
@@ -139,13 +134,21 @@
 - (void)textFieldDidEndEditing:(UITextField *)textField
 {
     [self.view endEditing:YES];
-    if(textField ==self.displayNameTextField)
-    {
-        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"displayNameKey"];
+    if ([self isDisplayNameAndServiceTypeValid]) {
+        if (textField ==self.displayNameTextField)
+        {
+            [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"displayNameKey"];
+        }
+        if (textField==self.serviceTypeTextField) {
+            [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"serviceTypeKey"];
+        }
     }
-    if (textField==self.serviceTypeTextField) {
-        [[NSUserDefaults standardUserDefaults] setObject:textField.text forKey:@"serviceTypeKey"];
+    else {
+        // These are mandatory fields.  Alert the user
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"错误" message:@"群名称和昵称应该为长度在1-15之间的英文" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil];
+        [alert show];
     }
+    
 }
 
 @end

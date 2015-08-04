@@ -32,6 +32,7 @@
 }
 
 - (void)highlightCell:(BOOL)highlight {
+    /*
     UIColor *tintColor = [UIColor whiteColor];
     if(highlight) {
         tintColor = [UIColor colorWithWhite:1.0 alpha:0.6];
@@ -39,6 +40,7 @@
     
     self.titleLabel.textColor = tintColor;
     self.iconImageView.tintColor = tintColor;
+     */
 }
 
 #pragma mark - Accessors
